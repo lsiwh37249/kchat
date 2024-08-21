@@ -23,7 +23,9 @@ python chat.py
 python pro.py
 <사진 첨부>
 ```
-### Test
+
+![image](https://github.com/user-attachments/assets/843f2578-1b42-4bc1-a853-b98ee11d914b)
+![image](https://github.com/user-attachments/assets/f505d4d0-4ee5-4b2f-8899-5a357bd37796)
 
 
 
