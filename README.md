@@ -5,6 +5,7 @@ Kafka를 이용한 채팅 프로그램
 
 ### Dependency
 ![img2](https://img.shields.io/badge/kafka-2.8%20-brightgreen.svg)
+![img2](https://img.shields.io/badge/tqdm-4.66.5-blue)
 ```
 pip install kafka-python == 2.0.2
 ``` 
