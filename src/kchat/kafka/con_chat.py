@@ -7,7 +7,7 @@ consumer = KafkaConsumer(
         auto_offset_reset='earliest',
         enable_auto_commit=True,
         group_id='chat-group',
-        value_deserializer=lambda x: loads(x.decode('utf-8'))
+        value_deserializer=lambda x: loads(x.decode('utf8'))
         
 )
 
