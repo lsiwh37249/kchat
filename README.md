@@ -14,18 +14,16 @@ pip install kafka-python == 2.0.2
 con.py, pro.py 사용방법
 
 보내는 사람
-```
-python chat.py
-<사진 첨부>
-```
-받는 사람
-```
-python pro.py
-<사진 첨부>
-```
 
 ![image](https://github.com/user-attachments/assets/843f2578-1b42-4bc1-a853-b98ee11d914b)
+
+받는 사람
+
 ![image](https://github.com/user-attachments/assets/f505d4d0-4ee5-4b2f-8899-5a357bd37796)
+
+
+
+
 
 
 
