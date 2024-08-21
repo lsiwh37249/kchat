@@ -5,7 +5,10 @@ description = "KAFKA CHAT"
 authors = [
     {name = "lsiwh37249", email = "lsiwh37249@gmail.com"},
 ]
-dependencies = []
+dependencies = [
+    "kafka-python>=2.0.2",
+    "tqdm>=4.66.5",
+]
 requires-python = "==3.8.*"
 readme = "README.md"
 license = {text = "MIT"}
@@ -24,6 +27,7 @@ test = [
 test = [
     "pytest>=8.3.2"
 ]
+
 
 [tool.pytest.ini_options]
 pythonpath = "src"
