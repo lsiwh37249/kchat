@@ -5,7 +5,9 @@ description = "KAFKA CHAT"
 authors = [
     {name = "lsiwh37249", email = "lsiwh37249@gmail.com"},
 ]
-dependencies = []
+dependencies = [
+    "kafka-python>=2.0.2",
+]
 requires-python = "==3.8.*"
 readme = "README.md"
 license = {text = "MIT"}
