@@ -2,8 +2,7 @@
 
 
 ### Dependency
-![img](https://img.shields.io/badge/license-Apache%202-blue.svg)
-![img2](https://img.shields.io/badge/kafka-2.8%2C%20-brightgreen.svg)
+![img2](https://img.shields.io/badge/kafka-2.8%20-brightgreen.svg)
 ```
 pip install kafka-python == 2.0.2
 ``` 
