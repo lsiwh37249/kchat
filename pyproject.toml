@@ -5,6 +5,7 @@ description = "KAFKA CHAT"
 authors = [
     {name = "lsiwh37249", email = "lsiwh37249@gmail.com"},
 ]
+
 dependencies = [
     "kafka-python>=2.0.2",
     "tqdm>=4.66.5",
