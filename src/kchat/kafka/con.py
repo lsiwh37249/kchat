@@ -28,7 +28,7 @@ consumer =  KafkaConsumer(
 
 print('[Start] get consumer')
 
-p = TopicPartition('kchat', 0)
+p = TopicPartition('test-gzip-100', 0)
 consumer.assign([p])
 
 if saved_offset is not None:

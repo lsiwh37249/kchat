@@ -17,8 +17,6 @@ print("메시지 대기 중...")
 try:
     for m in consumer:
         data = m.value
-        print(m)
-        print(data)
         formatted_time = datetime.fromtimestamp(data['time']).strftime('%Y-%m-%d %H:%M:%S')
         print(f"(받은 시간 : {formatted_time}) [FRIEND]: {data['message']}")
 except KeyboardInterrupt:
