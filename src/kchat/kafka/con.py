@@ -16,7 +16,7 @@ def read_offset():
 saved_offset = read_offset()
 consumer =  KafkaConsumer(
     #"kchat",
-    bootstrap_servers=['localhost:9092'],
+    bootstrap_servers=['ec2-3-36-61-204.ap-northeast-2.compute.amazonaws.com:9092'],
     value_deserializer = lambda x: loads(x.decode('utf-8')),
     consumer_timeout_ms=15000,
     auto_offset_reset='earliest',

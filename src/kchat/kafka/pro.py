@@ -3,7 +3,7 @@ import time
 import json
 from tqdm import tqdm
 producer = KafkaProducer(
-    bootstrap_servers=['localhost:9092'],
+    bootstrap_servers=['ec2-3-36-61-204.ap-northeast-2.compute.amazonaws.com:9092'],
     value_serializer = lambda x:json.dumps(x).encode('utf-8')
 )
 
